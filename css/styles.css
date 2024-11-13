@@ -29,5 +29,57 @@ ul {
 
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family: "Barlow", sans-serif;
+  background-color: rgb(127, 182, 255);
 }
+
+/*header*/
+.header{
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 375px;
+  height: 538px;
+  background-image: url(../assets/images/mobile/image-header.jpg);
+  background-size: contain;
+}
+
+.header-top-elements {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 24px;
+  width: 327px;
+}
+
+.logo{
+  width: 124px;
+  height: 24px;
+}
+
+.hide-in-mobile{
+  display: none;
+}
+
+.hamburger{
+  width: 24px;
+  height: 18px;
+}
+
+.slogan{
+  font-family: "Fraunces", serif;
+  color: white;
+  text-align: center;
+  letter-spacing: 6px;
+  margin-top: 88px;
+  margin-bottom: 52px;
+}
+
+.arrow-down{
+  width: 50px;
+  height: 147px;
+}
+
+/*main*/
+
