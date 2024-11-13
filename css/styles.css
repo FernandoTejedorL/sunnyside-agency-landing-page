@@ -30,11 +30,10 @@ ul {
 body {
   margin: 0;
   font-family: "Barlow", sans-serif;
-  background-color: rgb(127, 182, 255);
 }
 
 /*header*/
-.header{
+.header {
   padding: 24px;
   display: flex;
   flex-direction: column;
@@ -53,33 +52,238 @@ body {
   width: 327px;
 }
 
-.logo{
+.logo {
   width: 124px;
   height: 24px;
 }
 
-.hide-in-mobile{
+.hide-in-mobile {
   display: none;
 }
 
-.hamburger{
+.hamburger {
   width: 24px;
   height: 18px;
 }
 
-.slogan{
+.slogan {
   font-family: "Fraunces", serif;
   color: white;
+  font-weight: 900;
   text-align: center;
+  font-size: 40px;
   letter-spacing: 6px;
   margin-top: 88px;
   margin-bottom: 52px;
 }
 
-.arrow-down{
-  width: 50px;
-  height: 147px;
+.arrow-down {
+  width: 30px;
+  height: 107px;
 }
 
 /*main*/
 
+.egg-img {
+  width: 375px;
+  height: 312px;
+  background-image: url(../assets/images/mobile/image-transform.jpg);
+  background-size: contain;
+}
+.cup-img {
+  width: 375px;
+  height: 312px;
+  background-image: url(../assets/images/mobile/image-stand-out.jpg);
+  background-size: contain;
+}
+.text-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 375px;
+  height: 437px;
+  padding: 64px 24px;
+  background-color: white;
+}
+.text-headers {
+  font-family: "Fraunces", serif;
+  color: black;
+  font-weight: 900;
+  text-align: center;
+  font-size: 32px;
+  margin: 0;
+}
+.text-text {
+  margin: 0;
+  text-align: center;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  color: #808397;
+}
+.text-link {
+  font-family: "Fraunces", serif;
+  color: black;
+  font-weight: 900;
+  text-align: center;
+  font-size: 15px;
+  line-height: 25px;
+  margin: 0;
+}
+.full-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 27px;
+  height: 600px;
+  width: 375px;
+  padding: 59px 24px;
+}
+.full-image-header {
+  font-family: "Fraunces", serif;
+  color: #24554a;
+  font-weight: 900;
+  text-align: center;
+  font-size: 28px;
+  margin: 0;
+}
+.full-image-text {
+  margin: 0;
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 27px;
+  color: #24554a;
+}
+.cherries {
+  background-image: url(../assets/images/mobile/image-graphic-design.jpg);
+  background-size: contain;
+}
+.orange {
+  background-image: url(../assets/images/mobile/image-photography.jpg);
+  background-size: contain;
+}
+
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  align-items: center;
+  padding: 64px 24px;
+  height: 1258px;
+  width: 375px;
+}
+.testimonials-header {
+  font-family: "Fraunces", serif;
+  color: #a7aaad;
+  font-weight: 900;
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 4px;
+  margin: 0;
+}
+.testimonials-container {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+.speeches {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 320px;
+  width: 327px;
+}
+.profile-pic {
+  height: 72px;
+  width: 72px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.testimonial-speech {
+  margin: 0;
+  text-align: center;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  color: #5b636d;
+}
+.signature {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 203px;
+  height: 56px;
+}
+.name {
+  font-family: "Fraunces", serif;
+  color: #24303e;
+  font-weight: 900;
+  text-align: center;
+  font-size: 18px;
+}
+.role {
+  text-align: center;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 25px;
+  color: #a7aaad;
+}
+
+.various-images {
+  display: grid;
+  width: 375px;
+  height: 375px;
+  grid-template-columns: repeat(2, 188px);
+  grid-template-rows: 188px 188px;
+}
+.milk {
+  background-image: url(../assets/images/mobile/image-gallery-milkbottles.jpg);
+  background-size: contain;
+}
+.breakfast {
+  background-image: url(../assets/images/mobile/image-gallery-orange.jpg);
+  background-size: contain;
+}
+.cone {
+  background-image: url(../assets/images/mobile/image-gallery-cone.jpg);
+  background-size: contain;
+}
+.tetris {
+  background-image: url(../assets/images/mobile/image-gallery-sugar-cubes.jpg);
+  background-size: contain;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-inline: 39px;
+  width: 375px;
+  height: 350px;
+  background-color: #90d4c6;
+  color: #2c7566;
+}
+.footer-logo {
+  width: 170px;
+  height: 33px;
+}
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  width: 297px;
+  height: 25px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  color: #458d7e;
+}
+.social-media {
+  display: flex;
+  justify-content: space-between;
+  width: 164px;
+  height: 20px;
+}
