@@ -59,6 +59,7 @@ body {
 .modal {
   position: absolute;
   top: 106px;
+  left: 24px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -72,6 +73,7 @@ body {
   background-color: white;
   scale: 1;
   transition: scale 0.3s;
+  translate: 0;
 }
 .modal::after {
   content: '';
